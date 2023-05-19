@@ -1,0 +1,36 @@
+/* Write your code here. */
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 35px;
+}
+
+.card-container {
+  width: 85%;
+  border-radius: 15px;
+}
+
+.heading {
+  font-size: 28px;
+  color: #1e293b;
+}
+
+.para {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.selected-image {
+  width: 100%;
+  border-radius: 15px;
+}
